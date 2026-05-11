@@ -32,7 +32,7 @@ Public repositories do not expose:
 
 # RSIF — ResetRay Structured Imaging Format
 
-RSIF is a structured semantic layer for AI-readable quantitative imaging data.
+RSIF (ResetRay Structured Imaging Format) is a structured semantic layer for AI-readable quantitative imaging data.
 
 RSIF focuses on:
 
@@ -43,6 +43,7 @@ RSIF focuses on:
 - anonymized structured imaging data.
 
 RSIF is not intended for:
+
 - diagnosis;
 - treatment recommendation;
 - clinical decision support;
@@ -56,12 +57,25 @@ RSIF is not intended for:
 
 Public semantic documentation for RSIF.
 
-Topics:
-- CT/DICOM terminology
-- quantitative imaging
-- AI-readable imaging data
-- structured export concepts
-- anonymization terminology
+## rsif-examples
+
+Synthetic public RSIF example objects.
+
+## rsif-vocabulary
+
+Bilingual semantic vocabulary for AI-readable quantitative CT/DICOM terminology.
+
+## rsif-docs
+
+Public documentation for RSIF semantic imaging concepts.
+
+## imaging-semantics
+
+Semantic terminology and AI-readable concepts for quantitative imaging workflows.
+
+## dicom-anonymization-notes
+
+Public notes on DICOM anonymization concepts and structured imaging de-identification.
 
 ---
 
@@ -70,10 +84,19 @@ Topics:
 ResetRay repositories describe technical imaging concepts only.
 
 They are intended for:
+
 - structured imaging documentation;
 - interoperability research;
 - semantic imaging workflows;
 - AI-readable technical data exchange.
+
+They are not intended for:
+
+- diagnosis;
+- treatment recommendation;
+- disease classification;
+- clinical decision support;
+- emergency interpretation.
 
 ---
 
